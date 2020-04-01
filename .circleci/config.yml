@@ -17,12 +17,12 @@ jobs:
   build:
     docker:
       - image: cibuilds/hugo:latest
-    working_directory: ~/hugo-theme-chunky-poster
+    working_directory: ~/hugo-theme-blogosphere
     steps:
       - checkout
       - hugo/hugo-build:
           source: exampleSite
-          extra-flags: '--themesDir ../.. -t "hugo-theme-chunky-poster" --baseURL "https://hugo-theme-chunky-poster.netlify.com"'
+          extra-flags: '--themesDir ../.. -t "hugo-theme-blogosphere" --baseURL "https://hugo-theme-blogosphere.netlify.com"'
       - persist_to_workspace:
           root: .
           paths:
