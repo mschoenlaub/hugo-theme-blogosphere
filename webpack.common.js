@@ -23,12 +23,12 @@ module.exports = {
         new CleanWebpackPlugin({
             cleanAfterEveryBuildPatterns: [
                 'static/dist/*',
-                'data/chunky-poster/assets.json',
+                'data/blogosphere/assets.json',
             ],
         }),
         new AssetsPlugin({
             filename: 'assets.json',
-            path: path.resolve(__dirname, 'data/chunky-poster'),
+            path: path.resolve(__dirname, 'data/blogosphere'),
             prettyPrint: true,
             fullPath: false,
         }),

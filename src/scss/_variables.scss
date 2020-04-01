@@ -1,21 +1,17 @@
 $enable-responsive-font-sizes: true;
 
-$white: #fff;
-$gray-100: #e9edf0;
-$gray-200: #adbcc4;
-$gray-300: #adbcc4;
-$gray-400: #8fa6b2;
-$gray-500: #5d7c8c;
-$gray-600: #3d6478;
-$gray-700: #264d61;
-$gray-800: #0c344b;
-$gray-900: #082333;
+$dark-shade: #293C4F;
+$light-shade: #F8F7F6;
+$light-accent: #9CA241;
+$identity: #40C2EA;
+$dark-accent: #83635D;
 
-$text-muted: $gray-400;
-$body-color: $gray-800;
-$light: $white;
-$dark: $gray-900;
-$headings-color: $gray-900;
+$text-muted: $light-accent;
+$body-color: $dark-shade;
+$light: $light-shade;
+$dark: $dark-shade;
+$headings-color: $dark-accent;
+
 $headings-font-family: 'Open Sans', sans-serif;
 $headings-font-weight: 700;
 
@@ -23,7 +19,7 @@ $font-family-sans-serif: 'Roboto', sans-serif;
 $font-family-monospace: 'Roboto Mono', monospace;
 $font-family-serif: 'Roboto Slab', serif;
 
-$link-color: $gray-800;
+$link-color: $dark-accent;
 $link-decoration: underline;
 
 $font-size-base: 1.125rem;

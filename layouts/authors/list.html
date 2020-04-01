@@ -27,6 +27,12 @@
                             </p>
                         {{- end -}}
 
+                        {{- with $term.Params.github -}}
+                        <p class="text-muted">
+                            <i class="fa-fw fab fa-github"></i><a href="https://github.com/{{ . | urlize }}">{{ .}}</a>
+                        </p>
+                        {{- end -}}
+
                         <div class="content">
                             {{ $term.Content }}
                         </div>
